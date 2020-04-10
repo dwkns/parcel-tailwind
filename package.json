@@ -4,7 +4,7 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "parcel:dev": "npx parcel src/index.html",
+    "parcel:dev": "npx parcel src/index.html --open",
     "parcel:build": "npx parcel build src/index.html",
     "clean": "rm -rf dist .cache",
     "start": "npm-run-all -s clean parcel:dev",
